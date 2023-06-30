@@ -8,14 +8,9 @@ export NVM_DIR="$HOME/.nvm"
 [ -f "/Users/lotus/.ghcup/env" ] && source "/Users/lotus/.ghcup/env" # ghcup-env
 
 # zsh
-# export KEYTIMEOUT=1
 export HISTFILE="$ZSH_CONFIG_DIR/.zhistory"
 export HISTSIZE=10000
 export SAVEHIST=10000
-
-# vim
-# export VI_MODE_RESET_PROMPT_ON_MODE_CHANGE=true
-# export VI_MODE_SET_CURSOR=true
 
 # go
 export GOPATH=$HOME/go
