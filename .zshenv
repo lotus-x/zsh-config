@@ -37,6 +37,9 @@ export PATH=$PATH:$HOME/Library/Android/platform-tools
 export PATH=$PATH:$HOME/Library/Android/emulator
 export PATH=$PATH:$HOME/Library/Android/build-tools
 
+# poetry
+export PATH=$PATH:$HOME/.local/bin
+
 # editor
 export EDITOR=nvim
 export VISUAL=nvim
@@ -46,9 +49,6 @@ export ANDROID_SDK_ROOT=$HOME/Library/Android/sdk
 
 # brew
 export PATH="/opt/homebrew/opt/openjdk@11/bin:$PATH"
-
-# terminal
-export TERM=xterm-256color
 
 # proxies
 export http_proxy=http://localhost:8890
