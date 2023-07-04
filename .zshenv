@@ -1,4 +1,5 @@
 export ZSH_CONFIG_DIR=$HOME/zsh-config
+export ZSH_CACHE_DIR=$ZSH_CONFIG_DIR/cache
 
 # nvm
 export NVM_DIR="$HOME/.nvm"

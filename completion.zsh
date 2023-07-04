@@ -16,6 +16,7 @@ export ZSH_CONFIG_DIR=$HOME/zsh-config
 # Load more completions
 fpath=($ZSH_CONFIG_DIR/plugins/zsh-completions/src $fpath)
 fpath+=$ZSH_CONFIG_DIR/.zfunc
+fpath+=$ZSH_CONFIG_DIR/cache/completions
 fpath+=$ZSH_CONFIG_DIR/plugins/ohmyzsh/plugins/docker
 fpath+=$ZSH_CONFIG_DIR/plugins/ohmyzsh/plugins/docker-compose
 fpath+=$ZSH_CONFIG_DIR/plugins/ohmyzsh/plugins/extract
