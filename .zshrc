@@ -8,6 +8,7 @@ select-word-style normal
 zstyle ':zle:*' word-style unspecified
 
 source $ZSH_CONFIG_DIR/completion.zsh
+source $ZSH_CONFIG_DIR/plugins/ohmyzsh/lib/history.zsh
 
 source $ZSH_CONFIG_DIR/plugins/zsh-bd/bd.zsh
 
