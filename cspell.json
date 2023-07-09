@@ -1,1 +1,1 @@
-{"flagWords":[],"words":["setopt","DUPS","PUSHD","WORDCHARS","autoload","zstyle","ohmyzsh","bindkey","vicmd","catppuccin","zoxide","fpath","zfunc","complist","zmodload","compinit","ghcup","nvim","GOPATH","SAVEHIST","HISTSIZE","HISTFILE","zhistory"],"language":"en","version":"0.2"}
+{"version":"0.2","flagWords":[],"language":"en","words":["setopt","DUPS","PUSHD","WORDCHARS","autoload","zstyle","ohmyzsh","bindkey","vicmd","catppuccin","zoxide","fpath","zfunc","complist","zmodload","compinit","ghcup","nvim","GOPATH","SAVEHIST","HISTSIZE","HISTFILE","zhistory","pandoc"]}

@@ -25,6 +25,7 @@ alias pg='ping 8.8.8.8'
 # docker
 
 alias aws='docker run --rm -it -v ~/.aws:/root/.aws -v $(pwd):/aws amazon/aws-cli'
+alias pandoc='docker run --rm --volume "`pwd`:/data" --user `id -u`:`id -g` pandoc/latex'
 
 # task
 alias task="go-task"

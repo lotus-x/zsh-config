@@ -2,11 +2,6 @@ export ZSH_CONFIG_DIR=$HOME/zsh-config
 
 source $ZSH_CONFIG_DIR/aliases.zsh
 
-setopt HIST_SAVE_NO_DUPS
-setopt AUTO_PUSHD
-setopt PUSHD_IGNORE_DUPS
-setopt PUSHD_SILENT
-
 export WORDCHARS=' *?_-.[]~=&;!#$%^(){}<>/'
 autoload -U select-word-style
 select-word-style normal
