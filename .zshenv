@@ -9,7 +9,7 @@ export NVM_DIR="$HOME/.nvm"
 [ -f "/Users/lotus/.ghcup/env" ] && source "/Users/lotus/.ghcup/env" # ghcup-env
 
 # zsh
-export HISTFILE="$ZSH_CONFIG_DIR/.zhistory"
+export HISTFILE="$HOME/.zhistory"
 export HISTSIZE=10000
 export SAVEHIST=10000
 
