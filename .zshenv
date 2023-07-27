@@ -46,7 +46,7 @@ export ANDROID_SDK_ROOT=$HOME/Library/Android/sdk
 # brew
 export PATH="/opt/homebrew/opt/openjdk@11/bin:$PATH"
 
-# brew
+# fnm
 export PATH="$HOME/.local/share/fnm:$PATH"
 
 # proxies
