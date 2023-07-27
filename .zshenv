@@ -49,6 +49,9 @@ export PATH="/opt/homebrew/opt/openjdk@11/bin:$PATH"
 # fnm
 export PATH="$HOME/.local/share/fnm:$PATH"
 
+# cargo
+export PATH="$HOME/.cargo/env:$PATH"
+
 # proxies
 export http_proxy=http://localhost:8890
 export HTTP_PROXY=http://localhost:8890
