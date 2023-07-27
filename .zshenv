@@ -46,6 +46,12 @@ export ANDROID_SDK_ROOT=$HOME/Library/Android/sdk
 # brew
 export PATH="/opt/homebrew/opt/openjdk@11/bin:$PATH"
 
+# brew
+export PATH="$HOME/.local/share/fnm:$PATH"
+
 # proxies
 export http_proxy=http://localhost:8890
+export HTTP_PROXY=http://localhost:8890
 export https_proxy=http://localhost:8890
+export HTTPS_PROXY=http://localhost:8890
+
