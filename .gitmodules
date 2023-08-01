@@ -1,27 +1,27 @@
-[submodule "zsh/plugins/zsh-completions"]
-	path = zsh/plugins/zsh-completions
-	url = https://github.com/zsh-users/zsh-completions.git
-[submodule "zsh/plugins/ohmyzsh"]
-	path = zsh/plugins/ohmyzsh
-	url = https://github.com/ohmyzsh/ohmyzsh.git
-[submodule "zsh/plugins/zsh-syntax-highlighting"]
-	path = zsh/plugins/zsh-syntax-highlighting
-	url = https://github.com/zsh-users/zsh-syntax-highlighting.git
-[submodule "zsh/plugins/zsh-bd"]
-	path = zsh/plugins/zsh-bd
-	url = https://github.com/Tarrasch/zsh-bd.git
-[submodule "zsh/plugins/zsh-history-substring-search"]
-	path = zsh/plugins/zsh-history-substring-search
-	url = https://github.com/zsh-users/zsh-history-substring-search.git
-[submodule "zsh/plugins/zsh-autosuggestions"]
-	path = zsh/plugins/zsh-autosuggestions
-	url = https://github.com/zsh-users/zsh-autosuggestions.git
-[submodule "zsh/plugins/zsh-vi-mode"]
-	path = zsh/plugins/zsh-vi-mode
-	url = https://github.com/jeffreytse/zsh-vi-mode.git
-[submodule "zsh/plugins/zsh-syntax-highlighting-catppuccin"]
-	path = zsh/plugins/zsh-syntax-highlighting-catppuccin
-	url = https://github.com/catppuccin/zsh-syntax-highlighting.git
 [submodule "plugins/task"]
 	path = plugins/task
 	url = https://github.com/go-task/task.git
+[submodule "plugins/zsh-completions"]
+	path = plugins/zsh-completions
+	url = https://github.com/zsh-users/zsh-completions.git
+[submodule "plugins/ohmyzsh"]
+	path = plugins/ohmyzsh
+	url = https://github.com/ohmyzsh/ohmyzsh.git
+[submodule "plugins/zsh-syntax-highlighting"]
+	path = plugins/zsh-syntax-highlighting
+	url = https://github.com/zsh-users/zsh-syntax-highlighting.git
+[submodule "plugins/zsh-bd"]
+	path = plugins/zsh-bd
+	url = https://github.com/Tarrasch/zsh-bd.git
+[submodule "plugins/zsh-history-substring-search"]
+	path = plugins/zsh-history-substring-search
+	url = https://github.com/zsh-users/zsh-history-substring-search.git
+[submodule "plugins/zsh-autosuggestions"]
+	path = plugins/zsh-autosuggestions
+	url = https://github.com/zsh-users/zsh-autosuggestions.git
+[submodule "plugins/zsh-vi-mode"]
+	path = plugins/zsh-vi-mode
+	url = https://github.com/jeffreytse/zsh-vi-mode.git
+[submodule "plugins/zsh-syntax-highlighting-catppuccin"]
+	path = plugins/zsh-syntax-highlighting-catppuccin
+	url = https://github.com/catppuccin/zsh-syntax-highlighting.git
