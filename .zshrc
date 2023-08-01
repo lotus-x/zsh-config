@@ -44,7 +44,3 @@ eval "$(zoxide init zsh)"
 
 eval "$(starship init zsh)"
 
-function zvm_after_init() {
-  autoload add-zle-hook-widget
-  add-zle-hook-widget zle-line-pre-redraw zvm_zle-line-pre-redraw
-}
