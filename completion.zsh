@@ -24,6 +24,7 @@ fpath+=$ZSH_CONFIG_DIR/plugins/ohmyzsh/plugins/adb
 fpath+=$ZSH_CONFIG_DIR/plugins/ohmyzsh/plugins/golang
 fpath+=$ZSH_CONFIG_DIR/plugins/ohmyzsh/plugins/helm
 fpath+=$ZSH_CONFIG_DIR/plugins/ohmyzsh/plugins/pip
+fpath+=$ZSH_CONFIG_DIR/plugins/task/completion/zsh
 
 # Should be called before compinit
 zmodload zsh/complist
