@@ -17,22 +17,6 @@ export SAVEHIST=10000
 export GOPATH=$HOME/go
 export PATH=$PATH:$GOPATH/bin:/usr/local/go/bin
 
-# java
-export JAVA_HOME=/Library/Java/JavaVirtualMachines/zulu-11.jdk/Contents/Home
-
-# android
-export ANDROID_HOME=$HOME/Library/Android/sdk
-export PATH=$PATH:$ANDROID_HOME/emulator
-export PATH=$PATH:$ANDROID_HOME/platform-tools
-
-# flutter
-export PATH=$PATH:$HOME/bin/flutter/bin
-
-# android tools
-export PATH=$PATH:$HOME/Library/Android/platform-tools
-export PATH=$PATH:$HOME/Library/Android/emulator
-export PATH=$PATH:$HOME/Library/Android/build-tools
-
 # poetry
 export PATH=$PATH:$HOME/.local/bin
 
@@ -41,7 +25,14 @@ export EDITOR=nvim
 export VISUAL=nvim
 
 # android
-export ANDROID_SDK_ROOT=$HOME/Library/Android/sdk
+export ANDROID_HOME=$HOME/Android
+export ANDROID_SDK_ROOT=$HOME/Android
+export PATH="$ANDROID_HOME/cmdline-tools/latest/bin:$PATH"
+export PATH="$ANDROID_HOME/tools:$PATH"
+export PATH="$ANDROID_HOME/platform-tools:$PATH"
+
+# flutter
+export PATH=$PATH:$HOME/bin/flutter/bin
 
 # brew
 export PATH="/opt/homebrew/opt/openjdk@11/bin:$PATH"
@@ -58,3 +49,5 @@ export HTTP_PROXY=http://localhost:8890
 export https_proxy=http://localhost:8890
 export HTTPS_PROXY=http://localhost:8890
 
+# java
+# export _JAVA_OPTIONS="-Xmx2g"
