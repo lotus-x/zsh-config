@@ -14,7 +14,7 @@ source $ZSH_CONFIG_DIR/plugins/zsh-bd/bd.zsh
 
 source $ZSH_CONFIG_DIR/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
 
-# source $ZSH_CONFIG_DIR/plugins/ohmyzsh/plugins/ssh-agent/ssh-agent.plugin.zsh
+source $ZSH_CONFIG_DIR/plugins/ohmyzsh/plugins/ssh-agent/ssh-agent.plugin.zsh
 source $ZSH_CONFIG_DIR/plugins/ohmyzsh/plugins/docker/docker.plugin.zsh
 source $ZSH_CONFIG_DIR/plugins/ohmyzsh/plugins/docker-compose/docker-compose.plugin.zsh
 source $ZSH_CONFIG_DIR/plugins/ohmyzsh/plugins/extract/extract.plugin.zsh
@@ -27,6 +27,7 @@ source $ZSH_CONFIG_DIR/plugins/ohmyzsh/plugins/mosh/mosh.plugin.zsh
 source $ZSH_CONFIG_DIR/plugins/ohmyzsh/plugins/npm/npm.plugin.zsh
 source $ZSH_CONFIG_DIR/plugins/ohmyzsh/plugins/pip/pip.plugin.zsh
 source $ZSH_CONFIG_DIR/plugins/ohmyzsh/plugins/python/python.plugin.zsh
+source $ZSH_CONFIG_DIR/plugins/ohmyzsh/plugins/fnm/fnm.plugin.zsh
 
 source $ZSH_CONFIG_DIR/plugins/zsh-syntax-highlighting-catppuccin/themes/catppuccin_latte-zsh-syntax-highlighting.zsh
 source $ZSH_CONFIG_DIR/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
