@@ -38,3 +38,8 @@ alias ua-update-all='export TMPFILE="$(mktemp)"; \
       && sudo mv $TMPFILE /etc/pacman.d/mirrorlist \
       && ua-drop-caches \
       && yay -Syyu --noconfirm'
+
+alias k="kubectl"
+
+alias zj="zellij"
+
