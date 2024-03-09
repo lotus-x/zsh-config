@@ -43,3 +43,8 @@ alias k="kubectl"
 
 alias zj="zellij"
 
+alias nv="neovide.exe --wsl &"
+
+alias lzg="lazygit"
+alias lzd="lazydocker"
+

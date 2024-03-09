@@ -18,7 +18,7 @@ source $ZSH_CONFIG_DIR/plugins/ohmyzsh/plugins/ssh-agent/ssh-agent.plugin.zsh
 source $ZSH_CONFIG_DIR/plugins/ohmyzsh/plugins/docker/docker.plugin.zsh
 source $ZSH_CONFIG_DIR/plugins/ohmyzsh/plugins/docker-compose/docker-compose.plugin.zsh
 source $ZSH_CONFIG_DIR/plugins/ohmyzsh/plugins/extract/extract.plugin.zsh
-source $ZSH_CONFIG_DIR/plugins/ohmyzsh/plugins/flutter/flutter.plugin.zsh
+# source $ZSH_CONFIG_DIR/plugins/ohmyzsh/plugins/flutter/flutter.plugin.zsh
 source $ZSH_CONFIG_DIR/plugins/ohmyzsh/plugins/gitignore/gitignore.plugin.zsh
 source $ZSH_CONFIG_DIR/plugins/ohmyzsh/plugins/golang/golang.plugin.zsh
 source $ZSH_CONFIG_DIR/plugins/ohmyzsh/plugins/helm/helm.plugin.zsh
@@ -38,8 +38,6 @@ bindkey -M vicmd 'k' history-substring-search-up
 bindkey -M vicmd 'j' history-substring-search-down
 
 source $ZSH_CONFIG_DIR/plugins/zsh-vi-mode/zsh-vi-mode.zsh
-
-eval "$(fnm env --use-on-cd)"
 
 eval "$(zoxide init zsh)"
 
