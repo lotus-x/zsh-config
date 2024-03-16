@@ -40,6 +40,7 @@ alias ua-update-all='export TMPFILE="$(mktemp)"; \
       && yay -Syyu --noconfirm'
 
 alias k="kubectl"
+alias t="terraform"
 
 alias zj="zellij"
 
