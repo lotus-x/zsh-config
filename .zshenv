@@ -47,9 +47,6 @@ export PATH="$HOME/.cargo/env:$PATH"
 #fnm
 export PATH="/home/lotus/.local/share/fnm:$PATH"
 
-
-eval "$(fnm env --use-on-cd --log-level error --shell zsh)"
-
 # proxies
 # export http_proxy=http://localhost:8890
 # export HTTP_PROXY=http://localhost:8890

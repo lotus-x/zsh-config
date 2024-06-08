@@ -39,6 +39,8 @@ bindkey -M vicmd 'j' history-substring-search-down
 
 source $ZSH_CONFIG_DIR/plugins/zsh-vi-mode/zsh-vi-mode.zsh
 
+eval "$(fnm env --use-on-cd --log-level error --shell zsh)"
+
 eval "$(zoxide init zsh)"
 
 eval "$(starship init zsh)"
