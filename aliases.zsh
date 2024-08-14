@@ -43,6 +43,7 @@ alias k="kubectl"
 alias t="terraform"
 
 alias zj="zellij"
+alias hx="helix"
 
 alias nv="neovide.exe --wsl &"
 
