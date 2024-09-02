@@ -25,15 +25,15 @@ export EDITOR=nvim
 export VISUAL=nvim
 
 # android
-# export ANDROID_HOME=$HOME/Android/Sdk
-# export ANDROID_SDK_ROOT=$HOME/Android/Sdk
-# export PATH="$ANDROID_HOME/cmdline-tools/latest/bin:$PATH"
-# export PATH="$ANDROID_HOME/tools:$PATH"
-# export PATH="$ANDROID_HOME/platform-tools:$PATH"
-# export PATH="$ANDROID_HOME/emulator:$PATH"
+export ANDROID_HOME=$HOME/Android/Sdk
+export ANDROID_SDK_ROOT=$HOME/Android/Sdk
+export PATH="$ANDROID_HOME/cmdline-tools/latest/bin:$PATH"
+export PATH="$ANDROID_HOME/tools:$PATH"
+export PATH="$ANDROID_HOME/platform-tools:$PATH"
+export PATH="$ANDROID_HOME/emulator:$PATH"
 
 # flutter
-# export PATH=$PATH:$HOME/bin/flutter/bin
+export PATH=$PATH:$HOME/bin/flutter/bin
 
 # brew
 export PATH="/opt/homebrew/opt/openjdk@11/bin:$PATH"
