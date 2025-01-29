@@ -45,7 +45,7 @@ export PATH="$HOME/.cargo/env:$PATH"
 # export _JAVA_OPTIONS="-Xmx2g"
 
 #fnm
-export PATH="/home/lotus/.local/share/fnm:$PATH"
+export PATH="$HOME/.local/share/fnm:$PATH"
 
 # proxies
 # export http_proxy=http://localhost:8890
