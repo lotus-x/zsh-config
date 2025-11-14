@@ -44,12 +44,15 @@ export PATH="$HOME/.cargo/env:$PATH"
 # java
 # export _JAVA_OPTIONS="-Xmx2g"
 
-#fnm
-export PATH="$HOME/.local/share/fnm:$PATH"
-
 # proxies
 # export http_proxy=http://localhost:8890
 # export HTTP_PROXY=http://localhost:8890
 # export https_proxy=http://localhost:8890
 # export HTTPS_PROXY=http://localhost:8890
 
+#ghci
+[ -f "/home/lotus/.ghcup/env" ] && . "/home/lotus/.ghcup/env" # ghcup-env
+
+# volta
+export VOLTA_HOME="$HOME/.volta"
+export PATH="$VOLTA_HOME/bin:$PATH"

@@ -27,7 +27,6 @@ source $ZSH_CONFIG_DIR/plugins/ohmyzsh/plugins/mosh/mosh.plugin.zsh
 source $ZSH_CONFIG_DIR/plugins/ohmyzsh/plugins/npm/npm.plugin.zsh
 source $ZSH_CONFIG_DIR/plugins/ohmyzsh/plugins/pip/pip.plugin.zsh
 source $ZSH_CONFIG_DIR/plugins/ohmyzsh/plugins/python/python.plugin.zsh
-source $ZSH_CONFIG_DIR/plugins/ohmyzsh/plugins/fnm/fnm.plugin.zsh
 
 source $ZSH_CONFIG_DIR/plugins/zsh-syntax-highlighting-catppuccin/themes/catppuccin_latte-zsh-syntax-highlighting.zsh
 source $ZSH_CONFIG_DIR/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
@@ -38,8 +37,6 @@ bindkey -M vicmd 'k' history-substring-search-up
 bindkey -M vicmd 'j' history-substring-search-down
 
 source $ZSH_CONFIG_DIR/plugins/zsh-vi-mode/zsh-vi-mode.zsh
-
-eval "$(fnm env --use-on-cd --log-level error --shell zsh)"
 
 eval "$(zoxide init zsh)"
 
