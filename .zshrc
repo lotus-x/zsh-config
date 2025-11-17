@@ -40,5 +40,6 @@ source $ZSH_CONFIG_DIR/plugins/zsh-vi-mode/zsh-vi-mode.zsh
 
 eval "$(zoxide init zsh)"
 
-eval "$(starship init zsh)"
+eval "$(atuin init zsh)"
 
+eval "$(starship init zsh)"
