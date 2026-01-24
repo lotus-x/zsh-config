@@ -50,3 +50,7 @@ alias nv="neovide.exe --wsl &"
 alias lzg="lazygit"
 alias lzd="lazydocker"
 
+
+# flutter
+alias f="fvm flutter"
+alias d="fvm dart"
