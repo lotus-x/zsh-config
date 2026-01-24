@@ -25,8 +25,8 @@ export EDITOR=nvim
 export VISUAL=nvim
 
 # android
-export ANDROID_HOME=$HOME/Android/Sdk
-export ANDROID_SDK_ROOT=$HOME/Android/Sdk
+export ANDROID_HOME=$HOME/android-sdk
+export ANDROID_SDK_ROOT=$HOME/android-sdk
 export PATH="$ANDROID_HOME/cmdline-tools/latest/bin:$PATH"
 export PATH="$ANDROID_HOME/tools:$PATH"
 export PATH="$ANDROID_HOME/platform-tools:$PATH"
@@ -34,6 +34,7 @@ export PATH="$ANDROID_HOME/emulator:$PATH"
 
 # flutter
 export PATH=$PATH:$HOME/bin/flutter/bin
+export PATH=$PATH:$HOME/.pub-cache/bin
 
 # brew
 export PATH="/opt/homebrew/opt/openjdk@11/bin:$PATH"
@@ -56,3 +57,6 @@ export PATH="$HOME/.cargo/env:$PATH"
 # volta
 export VOLTA_HOME="$HOME/.volta"
 export PATH="$VOLTA_HOME/bin:$PATH"
+
+# fvm
+export PATH="/home/lotus/fvm/bin:$PATH"
