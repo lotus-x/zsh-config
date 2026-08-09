@@ -6,8 +6,6 @@ export HISTFILE="$HOME/.zhistory"
 export HISTSIZE=10000
 export SAVEHIST=10000
 
-[ -f "/Users/lotus/.ghcup/env" ] && source "/Users/lotus/.ghcup/env" # ghcup-env
-
 # zsh
 export HISTFILE="$HOME/.zhistory"
 export HISTSIZE=10000
@@ -53,6 +51,7 @@ export PATH="$HOME/.cargo/env:$PATH"
 
 #ghci
 [ -f "/home/lotus/.ghcup/env" ] && . "/home/lotus/.ghcup/env" # ghcup-env
+export PATH="$HOME/.cabal/bin:$HOME/.ghcup/bin:$PATH"
 
 # volta
 export VOLTA_HOME="$HOME/.volta"
@@ -60,3 +59,13 @@ export PATH="$VOLTA_HOME/bin:$PATH"
 
 # fvm
 export PATH="/home/lotus/fvm/bin:$PATH"
+
+# emacs
+export PATH="/home/lotus/.config/emacs/bin:$PATH"
+
+# node proccessors which uses local caddy https
+export NODE_EXTRA_CA_CERTS=/home/lotus/root.crt
+source "/home/lotus/.rover/env"
+
+#rover
+export PATH="/home/lotus/.rover/bin:$PATH"

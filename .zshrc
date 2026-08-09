@@ -27,6 +27,7 @@ source $ZSH_CONFIG_DIR/plugins/ohmyzsh/plugins/mosh/mosh.plugin.zsh
 source $ZSH_CONFIG_DIR/plugins/ohmyzsh/plugins/npm/npm.plugin.zsh
 source $ZSH_CONFIG_DIR/plugins/ohmyzsh/plugins/pip/pip.plugin.zsh
 source $ZSH_CONFIG_DIR/plugins/ohmyzsh/plugins/python/python.plugin.zsh
+source $ZSH_CONFIG_DIR/plugins/omz-pnpm/pnpm.plugin.zsh
 
 source $ZSH_CONFIG_DIR/plugins/zsh-syntax-highlighting-catppuccin/themes/catppuccin_latte-zsh-syntax-highlighting.zsh
 source $ZSH_CONFIG_DIR/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh

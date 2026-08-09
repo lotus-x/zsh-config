@@ -25,3 +25,6 @@
 [submodule "plugins/zsh-syntax-highlighting-catppuccin"]
 	path = plugins/zsh-syntax-highlighting-catppuccin
 	url = https://github.com/catppuccin/zsh-syntax-highlighting.git
+[submodule "plugins/omz-pnpm"]
+	path = plugins/omz-pnpm
+	url = https://github.com/bgowers/omz-pnpm
